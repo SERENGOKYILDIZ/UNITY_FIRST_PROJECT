@@ -3,3 +3,5 @@
 - CTRL + SHIFT + N kombini ile yeni boş bir GameObject oluşturulur.
 
 - Bir küpe CLTRL ile basılı tutarak oynatırsan, ölçülü adım eder.
+
+- Visual Studio'da CTRL + Mouse Topu yaparak fontu büyütüp küçülyebilirsin.
