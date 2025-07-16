@@ -1,0 +1,1 @@
+﻿- Bir GameObject'e tıklayıp F tuşuna tıklarsan o objeye odaklanırsın.
