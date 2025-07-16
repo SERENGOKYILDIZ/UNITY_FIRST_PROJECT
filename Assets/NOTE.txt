@@ -1,1 +1,5 @@
 ﻿- Bir GameObject'e tıklayıp F tuşuna tıklarsan o objeye odaklanırsın.
+
+- CTRL + SHIFT + N kombini ile yeni boş bir GameObject oluşturulur.
+
+- Bir küpe CLTRL ile basılı tutarak oynatırsan, ölçülü adım eder.
