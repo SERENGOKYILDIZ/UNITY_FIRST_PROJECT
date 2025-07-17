@@ -5,3 +5,14 @@
 - Bir küpe CLTRL ile basılı tutarak oynatırsan, ölçülü adım eder.
 
 - Visual Studio'da CTRL + Mouse Topu yaparak fontu büyütüp küçülyebilirsin.
+
+- Tuş kombinasyonları:
+
+	Q – View Tool (Sahne görünümünü sürüklemek için)
+	W – Move Tool (Taşıma)
+	E – Rotate Tool (Döndürme)
+	R – Scale Tool (Ölçeklendirme)
+	T – Rect Tool (UI objeleri için)
+	Y – Transform Tool (Hepsini birleştiren mod)
+
+- Normalde Perspektif kamera açısı kullanılır ama eğer 2D bir oyun yapyorsan ortografik kamera açısı tercih edilir
