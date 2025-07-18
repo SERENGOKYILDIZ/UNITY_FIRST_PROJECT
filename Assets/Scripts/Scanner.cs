@@ -2,9 +2,9 @@
 
 public class Scanner : MonoBehaviour
 {
-    //public GameObject enemy; // Tek eleman
+    public GameObject enemy;            // Tek eleman
 
-    public GameObject[] enemies; // Dizi eleman
+    public GameObject[] enemies;        // Dizi eleman
 
     private void Start()
     {
@@ -15,6 +15,7 @@ public class Scanner : MonoBehaviour
         print(enemy);
         */
 
+        /*
         // Tag'i "Enemy" olan GameObject'leri tanımlar.
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
         for(int i = 0; i < enemies.Length; i++)
@@ -22,5 +23,10 @@ public class Scanner : MonoBehaviour
             enemies[i].GetComponent<Transform>().localScale = new Vector3(2, 2, 6);
             print(enemies[i]);
         }
+        */
+
+        // Direk adı ile bulmak için
+        enemy = GameObject.Find("myCube - Enemy");
+        print(enemy);
     }
 }
