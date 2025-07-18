@@ -69,5 +69,11 @@ public class InputControl : MonoBehaviour
             print("F tuşuna Tıklanmış");
         }
         */
+
+        // GetAxis = Yön tuşlarını kontrol etmeye yarar.
+        // Not: Edit - >Project Settings... -> Input Manager kısmından ayarlanan tuş takımlarını kontrol eder.
+        // Horizontal = Yatay Eksen, Vertical = Düşey Eksen
+        //print(Input.GetAxis("Horizontal"));
+        //print(Input.GetAxis("Vertical"));
     }
 }
