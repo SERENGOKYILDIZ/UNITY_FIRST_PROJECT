@@ -21,3 +21,5 @@
 
 - Mesh Filter: 3D Obje tanımlama Component'i. (Yani 3D yapısı)
 - Mesh Renderer: 3D Obje'nin material tanımlama Component'i. (Yani kaplaması)
+
+- Yeni Input Sistemi için Objede "Player Input" Component'i olmalı. Ayrıca 
