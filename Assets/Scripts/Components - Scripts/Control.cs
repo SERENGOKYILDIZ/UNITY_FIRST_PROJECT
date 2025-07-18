@@ -9,7 +9,7 @@ public class Control : MonoBehaviour
     void Start()
     {
         //print(myLight);
-        myLight.GetComponent<Light>().intensity = 100;
+        //myLight.GetComponent<Light>().intensity = 100;
 
         /* 
          Eğer "GetComponent<Light>().intensity = 100;" şeklinde yazsaydım.

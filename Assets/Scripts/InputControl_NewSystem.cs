@@ -28,8 +28,8 @@ public class InputControl_NewSystem : MonoBehaviour
         // Rigidbody'miz 3D olduğu için Vector2'yi Vector3'e çeviriyoruz.
         vec = new Vector3(_moveDirection.x, _moveDirection.y);
 
-        // Sürekli olarak oluşan vektörü hız eklemesi yapıyoruz.
-        rb.linearVelocity = new Vector2(vec.x * moveSpeed, vec.y * moveSpeed);
+        // Sürekli olarak oluşan vektörü hız eklemesi yapıyoruz. (x-z ekseni için biraz değiştirdik)
+        rb.linearVelocity = new Vector3(vec.x * moveSpeed, 0, vec.y * moveSpeed);
     }
 
     private void OnEnable()     // Her InputAction olayı olunca buraya girer.
