@@ -15,4 +15,9 @@
 	T – Rect Tool (UI objeleri için)
 	Y – Transform Tool (Hepsini birleştiren mod)
 
-- Normalde Perspektif kamera açısı kullanılır ama eğer 2D bir oyun yapyorsan ortografik kamera açısı tercih edilir
+- Normalde Perspektif kamera açısı kullanılır ama eğer 2D bir oyun yapyorsan ortografik kamera açısı tercih edilir.
+
+- Trail Renderer: Kuyruklu yıldız işlevi gibi bir Component.
+
+- Mesh Filter: 3D Obje tanımlama Component'i. (Yani 3D yapısı)
+- Mesh Renderer: 3D Obje'nin material tanımlama Component'i. (Yani kaplaması)
