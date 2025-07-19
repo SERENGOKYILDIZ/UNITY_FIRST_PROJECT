@@ -23,3 +23,11 @@
 - Mesh Renderer: 3D Obje'nin material tanımlama Component'i. (Yani kaplaması)
 
 - Yeni Input Sistemi için Objede "Player Input" Component'i olmalı. Ayrıca 
+
+- Global Eksen = Tüm GameObjectler için geçerli olan transform yönüdür.
+- Local Eksen = Her GameObject'in döndükçe oluşan açılı trasform yönüdür.
+
+- Center = Objenin tam ortası ile işlem yapar.
+- Pivot = Objenin belirtilmiş noktası ile işlem yapar.
+
+- TAVSİYE: Eğer çok sık kontrol gerekmiyorsa fixedUpdate fonksiyonunu kullan. Çünkü her türlü 60fps çalışıyor.
