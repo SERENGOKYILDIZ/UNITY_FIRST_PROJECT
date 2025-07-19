@@ -31,3 +31,14 @@
 - Pivot = Objenin belirtilmiş noktası ile işlem yapar.
 
 - TAVSİYE: Eğer çok sık kontrol gerekmiyorsa fixedUpdate fonksiyonunu kullan. Çünkü her türlü 60fps çalışıyor.
+
+NOT - Yeni Input System (Unity)
+
+	Eğer mouse tıklaması (sol click vb.) çalışmıyorsa:
+
+	→ Input Actions dosyasındaki "Control Schemes" bölümünü kontrol et.
+	→ Kullanılan scheme içinde "Mouse" cihazı tanımlı değilse mouse input'ları çalışmaz.
+	→ Örnek: "Keyboard&Mouse" scheme'inde hem Keyboard hem Mouse ekli olmalı.
+
+	Unutmamak için kontrol et:
+	Edit → Project Settings → Input System → Control Schemes
